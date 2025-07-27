@@ -12,3 +12,12 @@
   border-radius: 16px;
   overflow: hidden;
 }
+
+.image {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.image:hover {
+  transform: scale(1.02);
+}
